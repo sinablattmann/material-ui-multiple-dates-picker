@@ -101,13 +101,13 @@ function (_Component) {
       var _this2 = this;
 
       var classes = this.props.classes;
-      var dateInNumberic = new _dateUtils.dateTimeFormat('en-US', {
+      var dateInNumberic = new _dateUtils.dateTimeFormat('ch', {
         day: 'numeric',
         month: 'numeric',
         year: 'numeric'
       });
       var dateToday = dateInNumberic.format(new Date());
-      var dayInNumeric = new _dateUtils.dateTimeFormat('en-US', {
+      var dayInNumeric = new _dateUtils.dateTimeFormat('ch', {
         day: 'numeric'
       });
       return _react["default"].createElement("div", {

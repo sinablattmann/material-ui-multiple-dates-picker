@@ -32,7 +32,7 @@ const monthLongList = [
 
 export function dateTimeFormat (locale, options) {
   warning(
-    locale === 'en-US',
+    locale === 'ch',
     `Material-UI: The ${locale} locale is not supported by the built-in DateTimeFormat.
   Use the \`DateTimeFormat\` prop to supply an alternative implementation.`
   )

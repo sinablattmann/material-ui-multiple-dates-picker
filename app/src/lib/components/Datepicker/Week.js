@@ -46,7 +46,7 @@ class Week extends Component {
   render () {
     const { classes } = this.props
 
-    const dateInNumberic = new dateTimeFormat('en-US', {
+    const dateInNumberic = new dateTimeFormat('ch', {
       day: 'numeric',
       month: 'numeric',
       year: 'numeric'
@@ -54,7 +54,7 @@ class Week extends Component {
 
     const dateToday = dateInNumberic.format(new Date())
 
-    const dayInNumeric = new dateTimeFormat('en-US', {
+    const dayInNumeric = new dateTimeFormat('ch', {
       day: 'numeric'
     })
     return (
